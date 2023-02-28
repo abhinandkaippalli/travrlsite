@@ -3,6 +3,7 @@ import RoundTripFlight from './options/RoundTripFlight';
 import OneWayTripFlights from './options/OneWayTripFlights';
 import MultiCityFlight from './options/MultiCityFlight';
 
+
 function FlightsSearch() {
 
     const [selectedTab, setSelectedTab] = useState('return');
@@ -49,7 +50,7 @@ function FlightsSearch() {
                         <input type="radio" id="multi-city" name="tab" value="multi-city" checked={selectedTab === 'multi-city'} onChange={handleTabChange} />
                         <label htmlFor="multi-city">Multi-city</label>
 
-                        <div className="select-className-wrp">
+                        <div className="select-class-wrp">
                             <select name="" className="select-class" id="" value={selectedClass} onChange={handleClassChange}>
                                 <option value="Economy">Economy</option>
                                 <option value="Premium">Premium</option>
