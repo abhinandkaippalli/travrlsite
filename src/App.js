@@ -1,6 +1,7 @@
 // import './App.css';
 import React from "react";
-import PopularFlightsNearYou from "./components/pages/popularFlightsNearYou/PopularFlightsNearYou";
+//import PopularFlightsNearYou from "./components/pages/popularFlightsNearYou/PopularFlightsNearYou";
+import PackageDetails from "./components/pages/packageDetails/PackageDetails";
 // import Navbar from "./components/navbar/Navbar";
 // import MidBar from "./components/midbar/MidBar";
 // import HolidaySection from "./components/holiday-section/HolidaySection";
@@ -15,7 +16,8 @@ function App() {
 
   return (
     <div className="App">
-      <PopularFlightsNearYou />
+      <PackageDetails />
+      {/* <PopularFlightsNearYou /> */}
       {/* <Navbar />
       <MidBar />
       <HolidaySection />
