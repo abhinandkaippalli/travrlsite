@@ -1,7 +1,8 @@
 // import './App.css';
 import React from "react";
 //import PopularFlightsNearYou from "./components/pages/popularFlightsNearYou/PopularFlightsNearYou";
-import PackageDetails from "./components/pages/packageDetails/PackageDetails";
+// import PackageDetails from "./components/pages/packageDetails/PackageDetails";
+import BookingSubmission from "./components/pages/bookigSubmission/BookingSubmission";
 // import Navbar from "./components/navbar/Navbar";
 // import MidBar from "./components/midbar/MidBar";
 // import HolidaySection from "./components/holiday-section/HolidaySection";
@@ -16,7 +17,8 @@ function App() {
 
   return (
     <div className="App">
-      <PackageDetails />
+      {/* <PackageDetails /> */}
+      <BookingSubmission />
       {/* <PopularFlightsNearYou /> */}
       {/* <Navbar />
       <MidBar />
