@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../header/Header'
+// import Header from '../../header/Header'
 import MidBanner from './section/MidBanner'
 import Section from './section/Section'
 import Footer from '../../footer/Footer'
@@ -7,7 +7,7 @@ import Footer from '../../footer/Footer'
 function PopularFlightsNearYou() {
   return (
     <div>
-        <Header />
+        {/* <Header /> */}
         <MidBanner />
         <Section />
         <Footer />

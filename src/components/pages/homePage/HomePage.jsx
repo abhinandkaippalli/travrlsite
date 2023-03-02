@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from '../../header/Header'
 import Midbar from '../../midbar/MidBar'
 import VideoBanner from '../../videoBanner/VideoBanner'
 import HolidaySection from '../../holiday-section/HolidaySection'
@@ -12,7 +11,7 @@ import Footer from '../../footer/Footer'
 function HomePage() {
   return (
     <div>
-        <Header />
+        
         <Midbar />
         <HolidaySection />
         <VideoBanner />

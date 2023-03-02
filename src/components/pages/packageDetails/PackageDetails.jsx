@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../header/Header'
+// import Header from '../../header/Header'
 import MidbarSection from './sections/MidbarSection'
 import PackageDetailsSection from './sections/PackageDetailsSection'
 import Footer from '../../footer/Footer'
@@ -7,7 +7,7 @@ import Footer from '../../footer/Footer'
 function PackageDetails() {
   return (
     <div>
-        <Header />
+        {/* <Header /> */}
         <MidbarSection />
         <PackageDetailsSection />
         <Footer />

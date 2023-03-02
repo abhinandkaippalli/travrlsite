@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header() {
   return (
@@ -84,7 +85,7 @@ function Header() {
                                 <div className="collapse navbar-collapse" id="navbarText">
                                     <ul className="navbar-nav mr-auto">
                                         <li className="nav-item active">
-                                            <a className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></a>
+                                            <Link to='/' className="nav-link" href="index.html">Home <span className="sr-only">(current)</span></Link>
                                         </li>
                                         {/* <!-- <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -97,13 +98,13 @@ function Header() {
                                 </div>
                             </li> --> */}
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">My Booking</a>
+                                            <Link to='booknowstatus' className="nav-link" href="#">My Booking</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">About Us</a>
+                                            <Link to='bookingsubmission' className="nav-link" href="#">About Us</Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a className="nav-link" href="#">Booking Support</a>
+                                            <Link to='packagedetails' className="nav-link" href="#">Booking Support</Link>
                                         </li>
                                         <li className="nav-item">
                                             <a className="nav-link" href="#">Agent Login</a>
