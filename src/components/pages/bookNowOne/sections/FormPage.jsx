@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 function FormPage() {
 
     const [firstName, setFirstName] = useState('')
-    const [LastName, setLastName] = useState('')
+    const [lastName, setLastName] = useState('')
     const [email, setEmail] = useState('')
     const [ phone, setPhone ] = useState('')
     const [addressLineOne, setAddressLineOne] = useState('')
@@ -22,57 +22,57 @@ function FormPage() {
             <div class="form-row border-radius-25 mb-xl-5 mb-4">
                 <div class="form-group col-md-6">
                     <label htmlFor="">First Name *</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={firstName} onChange={(e) => setFirstName(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Last Name *</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={lastName} onChange={(e) => setLastName(e.target.value)} />
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Email *</label>
-                    <input type="email" class="form-control border-radius-100" id="" />
+                    <input type="email" class="form-control border-radius-100" id="" value={email} onChange={(e) => setEmail(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Phone *</label>
-                    <input type="number" class="form-control border-radius-100" id="" />
+                    <input type="number" class="form-control border-radius-100" id="" value={phone} onChange={(e) => setPhone(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Address Line 1</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={addressLineOne} onChange={(e) => setAddressLineOne(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Address Line 2</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={addressLineTwo} onChange={(e) => setAddressLineTwo(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">City</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={city} onChange={(e) => setCity(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">State/Province/Region</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={state} onChange={(e) => setState(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">ZIP code/Postal code</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={zipCode} onChange={(e) => setZipCode(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Country</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={country} onChange={(e) => setCountry(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-12">
                     <label htmlFor="">Special Requirements</label>
-                    <textarea class="form-control border-radius-25" name="" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control border-radius-25" name="" id="" cols="30" rows="10" value={specialRequirement} onChange={(e) => setSpecialRequirement(e.target.value)}></textarea>
                 </div>
             </div>
             <div class="form-row border-radius-25 booking-payment-sec mb-5">
                 <div class="form-group col-md-12">
                     <label htmlFor="">Name on card *</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={nameOnCard} onChange={(e) => setNameOnCard(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6">
                     <label htmlFor="">Card number *</label>
-                    <input type="text" class="form-control border-radius-100" id="" />
+                    <input type="text" class="form-control border-radius-100" id="" value={cardNumber} onChange={(e) => setCardNumber(e.target.value)}/>
                 </div>
                 <div class="form-group col-md-6 d-flex align-items-end cards-icon-wrp" >
                     <div class="form-control">
