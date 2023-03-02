@@ -2,8 +2,8 @@
 import React from "react";
 //import PopularFlightsNearYou from "./components/pages/popularFlightsNearYou/PopularFlightsNearYou";
 // import PackageDetails from "./components/pages/packageDetails/PackageDetails";
-//import BookingSubmission from "./components/pages/bookNowOne/BookingSubmission";
-import BookNowStatus from "./components/pages/bookNowStatus/BookNowStatus";
+import BookingSubmission from "./components/pages/bookNowOne/BookingSubmission";
+//import BookNowStatus from "./components/pages/bookNowStatus/BookNowStatus";
 // import Navbar from "./components/navbar/Navbar";
 // import MidBar from "./components/midbar/MidBar";
 // import HolidaySection from "./components/holiday-section/HolidaySection";
@@ -19,9 +19,9 @@ function App() {
   return (
     <div className="App">
       {/* <PackageDetails /> */}
-      {/* <BookingSubmission /> */}
+      <BookingSubmission />
       {/* <PopularFlightsNearYou /> */}
-      <BookNowStatus />
+      {/* <BookNowStatus /> */}
       {/* <Navbar />
       <MidBar />
       <HolidaySection />
